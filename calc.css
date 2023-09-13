@@ -1,0 +1,141 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    top: 100px;
+    background:url("https://drive.google.com/uc?export=view&id=1YCzPktpjA6lnimE7OobwNNs3zA-nkjxI") no-repeat;
+    border-radius: 12px;
+    padding: 15px;
+    max-width: 338px;
+    box-shadow: 3px 3px 20px .6px black;
+    margin: 0  auto;
+    margin-top: 72px;
+    
+
+}
+
+.result{
+    border: 2px solid grey;
+}
+.numbers{
+    display: grid;
+    grid-template-columns:87.5px 85px 85px 85px;
+    width: 264px;
+    margin: 0;
+    
+}
+.operators{
+        position: absolute;
+        display: flex;
+        margin: 0;
+        flex-direction: column;
+        width: 85px;
+        top: 40px;
+        left: 257px;
+        height: 264px;
+}
+button{
+    margin: 7px;
+    padding: 8px;
+    width: 75px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: lightgrey;
+}
+button:hover{
+    background-color: grey;
+    transition: .12s ease-in;
+}
+button:active
+{
+    background-color: rgb(225, 223, 223);
+}
+#equals{
+    background-color: rgb(208, 90, 250);
+    width: 192px;
+    margin-right: 0;
+}
+#equals:hover{
+    background-color: rgb(198, 57, 249);
+}
+#equals:active{
+    background-color:rgb(187, 14, 250);
+}
+#clear{
+    background-color: rgb(247, 136, 136);
+    width: 91px;
+    margin-left: 34px;
+    margin-right: 0;
+
+}
+#clear:active{
+    background-color: red;
+
+}
+#remove{
+    width: 91px;
+    margin-right: -25px;
+    margin-left: 13px;
+}
+#equal-clear{
+    display: flex;
+    
+    width: 340px;
+    margin-top: 2px;
+    justify-content:space-evenly;
+}
+
+#display{
+    margin-bottom: .3px;
+    border-radius: 4px;
+    padding: 4px 0 3px 0px;
+}
+#keys{
+    
+    border-radius: 3px;
+}
+#input{
+    width: 318px;
+    padding: 8px 8px 8px 8px;
+    border-radius: 40px;
+    border: .3px solid grey;
+    margin-bottom: 5px;
+}
+
+input{
+    border-style: none;
+    
+}
+input{
+    border-style: dashed;
+    
+}
+
+#mod{
+    font-size: xx-small;
+}
+#lbracket{
+    display: inline;
+    border-top-right-radius:0 ;
+    border-bottom-right-radius: 0;
+    width: 37px;
+    margin-right: 0;
+}
+#rbracket{
+    display: inline;
+    position: absolute;
+    width: 37px;
+    margin-left: 1.4px;
+    border-top-left-radius:0 ;
+    border-bottom-left-radius: 0;
+}
+.result{
+    background-color: white;
+    width: 318px;
+    padding: 8px 8px 8px 8px;
+    border-radius: 40px;
+    border: .3px solid grey;
+    margin-bottom: 5px;
+}
+

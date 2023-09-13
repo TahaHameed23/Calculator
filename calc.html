@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+   <link rel="stylesheet" href="calc.css">
+</head>
+<body style="background-color: rgb(46, 46, 46);">
+    
+    <h1 style="color: white; text-align: center;">Calculator</h1>
+    <div class="wrapper">
+        <div id="display">
+
+            <div class="experssion">
+                <input type="text" id="input" placeholder="Enter here">
+            </div>
+            <div class="result">
+                <output id="otpt">Result:</output>
+            </div>
+        </div>
+        <div id="keys">
+            <div class="numbers">
+                <button id="1" onclick="inputNo(1);">1</button>
+                <button id="2" onclick="inputNo(2)">2</button>
+                <button id="3" onclick="inputNo(3)">3</button>
+                <button id="4" onclick="inputNo(4)">4</button>
+                <button id="5" onclick="inputNo(5)">5</button>
+                <button id="6" onclick="inputNo(6)">6</button>
+                <button id="7" onclick="inputNo(7)">7</button>
+                <button id="8" onclick="inputNo(8)">8</button>
+                <button id="9" onclick="inputNo(9)">9</button>
+                <button id="0" onclick="inputNo(0)">0</button>
+                <button id double-0 onclick="inputNo('00')">00</button>
+                <button id="decimal" onclick="inputNo('.')">.</button>
+                <button id="plus" onclick="inputNo('+')">+</button>
+                <button id="minus" onclick="inputNo('-')">-</button>
+                <button id="divide" onclick="inputNo('/')">/</button>
+                <button id="multiply" onclick="inputNo('*')">x</button>
+                <button onclick="inputNo('%');">%   <span id="mod">(mod)</span></button>
+                <button onclick="inputNo('**')">x<sup>n</sup></button>
+                <button onclick="inputNo('//')">//</button>
+                <span><button onclick="inputNo('(')" id="lbracket">(  </button>
+                    <button id="rbracket" onclick="inputNo(')')">)</button>
+                </span>
+                
+            </div>
+        
+        <div id="equal-clear">
+            <button id="equals">=</button>
+            <button id="remove" onclick="backspace();">Back</button>
+            <button id="clear" onclick="clearScreen();">C</button>
+        </div>
+        
+        
+    </div>
+        
+    </div>
+    
+    
+    <script src="./calc.js"></script>
+        
+</body>
+</html>
